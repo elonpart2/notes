@@ -20,7 +20,7 @@ jobs:
       run:
         working-directory: packages/desktop
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://registry.npmjs.org'
@@ -63,7 +63,7 @@ jobs:
       run:
         working-directory: packages/desktop
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://registry.npmjs.org'
@@ -110,7 +110,7 @@ jobs:
       run:
         working-directory: packages/desktop
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://registry.npmjs.org'
@@ -150,7 +150,7 @@ jobs:
       run:
         working-directory: packages/desktop
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://registry.npmjs.org'
@@ -200,7 +200,7 @@ jobs:
       run:
         working-directory: packages/desktop
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://registry.npmjs.org'
@@ -260,7 +260,7 @@ jobs:
         uses: digicert/ssm-code-signing@v1.0.0
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node
         uses: actions/setup-node@v3
@@ -343,7 +343,7 @@ jobs:
       run:
         working-directory: packages/desktop
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
           registry-url: 'https://registry.npmjs.org'
