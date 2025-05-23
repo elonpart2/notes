@@ -4735,6 +4735,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lexical/clipboard@npm:0.31.2":
+  version: 0.31.2
+  resolution: "@lexical/clipboard@npm:0.31.2"
+  dependencies:
+    "@lexical/html": 0.31.2
+    "@lexical/list": 0.31.2
+    "@lexical/selection": 0.31.2
+    "@lexical/utils": 0.31.2
+    lexical: 0.31.2
+  checksum: 9fb8b333e09fe943b060e4d55e268349585e3491955918b017246badfe6c78cdfb01ef00bc896dfe463d20214f9e745184d53d6245118d9cca8e07a9384bd862
+  languageName: node
+  linkType: hard
+
 "@lexical/code@npm:0.30.0":
   version: 0.30.0
   resolution: "@lexical/code@npm:0.30.0"
@@ -4812,6 +4825,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lexical/html@npm:0.31.2":
+  version: 0.31.2
+  resolution: "@lexical/html@npm:0.31.2"
+  dependencies:
+    "@lexical/selection": 0.31.2
+    "@lexical/utils": 0.31.2
+    lexical: 0.31.2
+  checksum: 4ab1197bd0060940670bf2d2ed71ff97cea5c142a4d3b89b66ae9429f4952b5f241779bd1732b6a39b0dc2ce0ea834f09e58171c41c9bc522f4f47d64268b12f
+  languageName: node
+  linkType: hard
+
 "@lexical/link@npm:0.30.0":
   version: 0.30.0
   resolution: "@lexical/link@npm:0.30.0"
@@ -4830,6 +4854,17 @@ __metadata:
     "@lexical/utils": 0.30.0
     lexical: 0.30.0
   checksum: 2b7d9f56255f20557c4852a69c1cb34ea25a14b250ed61d91c4d9752f20cb471be5d0562df74eb6838f116177adceca4a94f753c3f941daa07a908971524ba0a
+  languageName: node
+  linkType: hard
+
+"@lexical/list@npm:0.31.2":
+  version: 0.31.2
+  resolution: "@lexical/list@npm:0.31.2"
+  dependencies:
+    "@lexical/selection": 0.31.2
+    "@lexical/utils": 0.31.2
+    lexical: 0.31.2
+  checksum: 8dd24cfa3a9741536af9c96ad8223a294e4ad2941feefc316cca98bfc65a3769a7ae9cf17f75cf9c6d052525478980c34e4f81a2f9e406466f0863a132f1494c
   languageName: node
   linkType: hard
 
@@ -4937,6 +4972,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lexical/selection@npm:0.31.2":
+  version: 0.31.2
+  resolution: "@lexical/selection@npm:0.31.2"
+  dependencies:
+    lexical: 0.31.2
+  checksum: bcf9965db54628783966cbc84cc94b60622d533a21842ed7339db34999ca2fad63eb4483cb61f1e21d644b1a305ca7af5eee857a217a03f5e88182bdbc17049a
+  languageName: node
+  linkType: hard
+
 "@lexical/table@npm:0.30.0":
   version: 0.30.0
   resolution: "@lexical/table@npm:0.30.0"
@@ -4945,6 +4989,17 @@ __metadata:
     "@lexical/utils": 0.30.0
     lexical: 0.30.0
   checksum: 10d2dc18350e01e664db9903b842371051d0bc0a8ad76d25d5028f1051e3baff3c0e20a4c73db2b22b1eb95e0cab2b81755882d2db18a5e71245f61b9e927381
+  languageName: node
+  linkType: hard
+
+"@lexical/table@npm:0.31.2":
+  version: 0.31.2
+  resolution: "@lexical/table@npm:0.31.2"
+  dependencies:
+    "@lexical/clipboard": 0.31.2
+    "@lexical/utils": 0.31.2
+    lexical: 0.31.2
+  checksum: cfade882166f2b042f98856c37d982d88323360afd911867c78714de9313458c77ba5f91a1814beb97616a753e8f09f2acd016c2a3de20e4d17dac13ffc42651
   languageName: node
   linkType: hard
 
@@ -4966,6 +5021,18 @@ __metadata:
     "@lexical/table": 0.30.0
     lexical: 0.30.0
   checksum: 5bec6846b556b46b0716decf1d4f238541e87597ddbdef25ab0062309b7a3c91752c7faeff1f1bf5383550495244dc900687f601e089b4e481fef0a3974fb5cd
+  languageName: node
+  linkType: hard
+
+"@lexical/utils@npm:0.31.2":
+  version: 0.31.2
+  resolution: "@lexical/utils@npm:0.31.2"
+  dependencies:
+    "@lexical/list": 0.31.2
+    "@lexical/selection": 0.31.2
+    "@lexical/table": 0.31.2
+    lexical: 0.31.2
+  checksum: 894d474ad16b124f312268a41ae6be6044ad28c3308f463df6942562f884fdc51571c86e374d49b86be73f56c697299dc486c87c65ceade05cd454b59eb29e15
   languageName: node
   linkType: hard
 
@@ -8767,7 +8834,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": ^7.19.0
     "@babel/preset-env": "*"
     "@babel/preset-typescript": ^7.21.5
-    "@lexical/clipboard": 0.30.0
+    "@lexical/clipboard": 0.31.2
     "@lexical/headless": 0.30.0
     "@lexical/link": 0.30.0
     "@lexical/list": 0.30.0
@@ -20035,6 +20102,13 @@ __metadata:
   version: 0.30.0
   resolution: "lexical@npm:0.30.0"
   checksum: f29359090bbe5dcd7ca9f8b14d64644dd4f8075a71787f79ae1741995eca2b1934402d4d35101511f43167b979cb7f2dca92997011f7a92818c508208c5bceb3
+  languageName: node
+  linkType: hard
+
+"lexical@npm:0.31.2":
+  version: 0.31.2
+  resolution: "lexical@npm:0.31.2"
+  checksum: d86deaccea585a5e8ec4c0c808fc25c5bed1c7b8afe6a4db5eb8b206a96e8befe74a279bb603b073a4dde88b072f8adc1e14702fc774c51d4c1ed1e9062a5865
   languageName: node
   linkType: hard
 
